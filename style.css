@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 2rem;
 }
 
 .sm-wrapper {
@@ -27,7 +27,7 @@ html {
 
 .main-wrapper {
   overflow-x: hidden;
-  overflow-y: overlay;
+  overflow-y: scroll;
 }
 
 body {
@@ -785,11 +785,9 @@ footer h4 {
 }
 
 .social-links a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  font-size: 1.8rem;
-  line-height: 3.5rem;
+  display: flex;
+  padding: 1rem;
+  font-size: 2.4rem;
   border-radius: 50%;
   background-color: rgba(192, 183, 232, 1);
   color: #302C42;
@@ -1305,7 +1303,7 @@ p {
 }
 
 .footer-col:first-of-type {
-  padding: 0;
+  padding: 0 0 0 7rem;
 }
 
 .footer-col:nth-child(2), .footer-col:nth-child(3) {
@@ -1363,10 +1361,7 @@ p {
   }
 
   .social-links a {
-    width: 55px;
-    height: 55px;
-    font-size: 2.5rem;
-    line-height: 5.5rem;
+    
   }
 
   .process {  
@@ -1667,10 +1662,7 @@ p {
   }
 
   .social-links a {
-    width: 40px;
-    height: 40px;
-    font-size: 2rem;
-    line-height: 4rem;
+    
 }
   
   .footer-btn {
@@ -1723,6 +1715,15 @@ p {
     padding: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .footer .wrapper {
+    padding: 0;
+  }
+
+  .social-links a {
+    
+}
+
 }
 
 
