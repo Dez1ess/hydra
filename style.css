@@ -25,6 +25,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.main-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 body {
   position: relative;
   font-size: 1rem;
