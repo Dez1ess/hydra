@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 1rem;
 }
 
 .sm-wrapper {
@@ -23,7 +23,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -47,7 +46,7 @@ section {
   opacity: 0;
   filter: blur(10px);
   transform: translateX(-100%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 .hidden-2 {
@@ -336,7 +335,7 @@ span:nth-of-type(2) {
 }
 
 .about-img img {
-  width: 350px;
+  width: 300px;
 }
 
 .about-btn {
@@ -596,8 +595,8 @@ span:nth-of-type(2) {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   margin: 5rem auto;
@@ -613,8 +612,8 @@ span:nth-of-type(2) {
 .process-img::before {
   position: absolute;
   content: '';
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
   background-color: transparent;
   border: 1.8rem solid #0E0E0E52;
   border-radius: 50%;
@@ -934,7 +933,7 @@ textarea:focus::placeholder {
   }
 
   .hero-img img {
-    width: 300px;
+    width: 250px;
   }
 
   .tech-cards-mob img {
@@ -1010,7 +1009,7 @@ textarea:focus::placeholder {
   }
 
   .hero-img img {
-    width: 400px;
+    width: 350px;
   }
 
   .tech-cards-mob img {
